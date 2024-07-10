@@ -1,0 +1,247 @@
+*{
+   
+border:border-box;
+background-color: rgb(23, 7, 60);
+color:white;
+}
+.container
+{
+    display:flex;
+}
+.sidebar nav ul{
+    width:50%;
+    font-size:23px;
+    display:flex;
+    gap:25%;
+    justify-content: space-evenly;
+    margin-top:60px;
+    margin-left: 20px;
+    list-style: none;
+}
+.sidebar nav ul li a:hover{
+    color:rgb(175, 131, 219);
+    font-size: 1.5rem;
+}
+.sidebar{
+    
+    width: 70%;
+    height:40%;
+}
+.name{
+    margin-left: 8%;
+}
+.myname
+{
+    margin-top: 250px;
+}
+.myname p{
+    font-size:30px;
+}
+.n1{
+    font-size: 25px;
+}
+.btn1{
+    font-size: 20px;
+    color:black;
+    background-color: rgb(121, 137, 147);
+    border-radius: 20px;
+    height:40px;
+   font-weight:bold;
+   cursor: pointer;
+   margin:10px 10px;
+}
+.btn1:hover{
+    background-color: black;
+    color:rgb(121, 137, 147);
+}
+#element{
+    font-size: 50px;
+    color:rgb(215, 132, 214)
+}
+
+.rightpart img{
+    margin-left: 50px ;
+    margin-top: 50px;
+    justify-content: center;
+    width:80% ;
+    height:500px;
+    border-radius: 10px;
+}
+.line hr{
+    border:0;
+    margin:40px;
+    margin-top: 14%;
+    background: rgb(150, 147, 147);
+    height:0.01rem;
+}
+.first
+{
+    margin-left: 8%;
+}
+.col1 img{
+    margin-top: 10%;
+    width:500px;
+    height:600px;
+    border-radius: 100%;
+}
+.row{
+    display:flex;
+}
+.col2 h1{
+    margin-left: 10%;
+    font-size: 40px;
+}
+.col2 h2{
+    margin-left: 10%;
+    font-size: 18px;
+}
+.col2 h3{
+    margin-left: 10%;
+    font-size: 18px;
+}
+.education 
+{
+    height:100px;
+    margin-left: 10%;
+    font-size:20px;
+}
+.education ul li{list-style: none;
+margin: 10px;}
+.education ul li b
+{
+   font-weight: bold;
+   font-size:22px;
+}
+.pname{
+    background-color:#574173;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.subtitle h1{
+    font-size: 50px;
+}
+.boxes
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    background-color: rgb(40, 18, 60);
+}
+.box{
+    width:30%;
+    height:350px;
+    background-color: rgb(165, 127, 127);
+    padding :20px 0px 20px;
+    margin-top:16px;
+    border-radius: 10px;
+}
+.c-box
+{
+    margin-left:16px;
+    margin-right:16px;
+    border-radius: 10px;
+}
+.box-img
+{
+    height: 300px;
+    background-size: cover;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.skill
+{
+    display: flex;
+    justify-content:space-around;
+}
+.columns{
+    font-size: 30px;
+    font-weight: bold;
+}
+.columns ul li{
+    margin:20px;
+    list-style: none;
+}
+.column1 img{
+    width:40px;
+    height:45px;
+    margin-right:10px;
+    border-radius: 10px;
+}
+.column2 img{
+    width:40px;
+    height:45px;
+    margin-right:10px;
+    border-radius: 10px;
+}
+.skill-name{
+    margin-left: 15%;
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(217, 208, 226);
+    font-weight: bold;
+}
+.contact{
+    margin-top: 10%;
+}
+.con-name{
+    font-size: 50px;
+    margin-left: 40px;
+}
+.row-g3{
+    display: flex;
+}
+.visually-hidden{
+    font-size: 20px;
+    width: 50%;
+    background-color: black;
+}
+.form-control-plaintext{
+    font-size: 20px;
+    width:500px;
+    background-color: aliceblue;
+    color: rgb(21, 19, 17);
+}
+.form-control{
+    font-size: 20px;
+    width:300px;
+    background-color: aliceblue;
+    color: rgb(21, 19, 17);
+}
+.col-auto{
+    margin-left:10%;
+    height: 200px;
+    width: 70%;
+    margin-top: 70px;
+}
+.col-auto1{
+    margin-left: 50%;
+    height: 100px;
+    width: 50%;
+}
+.btn btn-primary mb-3{
+    width: 200px;
+    height: 200px;
+}
+.para p
+{
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.btn-1{
+    width: 70px;
+    height:50px;
+    border-radius: 10px;
+    background: rgb(166, 111, 166);
+    color:black;
+}
+.linkedin p{
+    font-size:40px;
+    margin-left: 10%;
+}
+.gitlink{
+    margin-top: 10%;
+    margin-left: 45%;
+    font-size: 30px;
+    color:azure
+}
